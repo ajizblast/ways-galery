@@ -304,7 +304,7 @@ func SendMail(status string, order models.Order) {
 	if status == "Waiting Accept" {
 		var CONFIG_SMTP_HOST = "smtp.gmail.com"
 		var CONFIG_SMTP_PORT = 587
-		var CONFIG_SENDER_NAME = "Ways Gallery <sheldyrivaldi@gmail.com>"
+		var CONFIG_SENDER_NAME = "Ways Gallery <ajizblast@gmail.com>"
 		var CONFIG_AUTH_EMAIL = os.Getenv("EMAIL_SYSTEM")
 		var CONFIG_AUTH_PASSWORD = os.Getenv("PASSWORD_SYSTEM")
 
